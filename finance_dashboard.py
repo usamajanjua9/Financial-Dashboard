@@ -8,7 +8,7 @@ import random  # For random selection of finance quotes
 st.set_page_config(page_title="💰 Ultimate Financial Dashboard", layout="wide")
 
 # 🖼️ Add a fun header GIF for an engaging UI
-st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG1nbW42M3o3bnhwZzdzbXQ1NTRvdmFxaTFtYXdsYXExbXExd3VubiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/DwY81z4w2FhBzN0M6h/giphy.gif", use_column_width=True)
+st.image("https://s.yimg.com/ny/api/res/1.2/14WEZZSf7ASCyCFr41lITg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTQ4MA--/https://media.zenfs.com/en-US/homerun/delish_597/b39059e978d34e1704d51ec69d7366e9", use_container_width=True)
 
 # 🌟 Main Title
 st.title("💰 Ultimate Financial Dashboard 📊")
@@ -126,7 +126,7 @@ st.write(random.choice(finance_quotes))
 # ---------------------------- FOOTER GIF ---------------------------- #
 
 # 🌟 Add a fun GIF footer to keep users engaged
-st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXl4eHRmbHF4d3o0c3ZkZzF2N3U2a2RxaThjM3Z0Z2RuMG1ydTRvMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SrsMiaB5R0W9W/giphy.gif", use_column_width=True)
+st.image("https://i2.wp.com/frugaling.org/wp-content/uploads/2013/11/giphy-3.gif?resize=500%2C274", use_container_width=True)
 
 # 🚀 Motivational closing statement
 st.write("🔥 *Stay financially fit and reach your money goals!* 🚀💰")
