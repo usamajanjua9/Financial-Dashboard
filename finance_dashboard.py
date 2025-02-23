@@ -7,6 +7,15 @@ import random  # For random selection of finance quotes
 # 🎨 Set up Streamlit page layout and title
 st.set_page_config(page_title="💰 Ultimate Financial Dashboard", layout="wide")
 
+# Hide Streamlit's extra UI elements
+st.markdown("""
+    <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+    </style>
+""", unsafe_allow_html=True)
+
 # 🌟 Main Title
 st.title("💰 Ultimate Financial Dashboard 📊")
 st.write("🔥 Track your money, investments, and goals all in one place! 🚀")
