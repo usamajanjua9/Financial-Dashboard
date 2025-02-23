@@ -8,7 +8,7 @@ import random  # For random selection of finance quotes
 st.set_page_config(page_title="💰 Ultimate Financial Dashboard", layout="wide")
 
 # 🖼️ Add a fun header GIF for an engaging UI
-st.image("https://s.yimg.com/ny/api/res/1.2/14WEZZSf7ASCyCFr41lITg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTQ4MA--/https://media.zenfs.com/en-US/homerun/delish_597/b39059e978d34e1704d51ec69d7366e9", use_container_width=True)
+st.image("https://i.gifer.com/J4o.gif", use_container_width=True)
 
 # 🌟 Main Title
 st.title("💰 Ultimate Financial Dashboard 📊")
